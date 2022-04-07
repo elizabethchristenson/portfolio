@@ -22,8 +22,9 @@ header>nav>a{
     text-decoration: none;
     padding: 2rem 0;
     display: inline-block;
-    width: 32%;
+    width: 30%;
     text-align: center;
+    border: 3px solid transparent;
 }
 header>nav{
     padding-top: 0;
@@ -70,3 +71,97 @@ img{
     background-color: #d69aaf;
     padding: 1rem;
 }
+header>nav>a:hover{
+    background-color: #d69aaf;
+    color: black;
+    border: 3px solid #98677a;
+}
+@media (min-width: 700px){
+    header>div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: large;
+    }
+    header>nav>a{
+        font-size: large;
+        width: unset;
+        padding: 3rem;
+        margin: 0 2rem;
+    }
+    header>nav{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .about img{
+        max-width: 60%;
+    }
+    #about{
+        flex-basis: 100%;
+    }
+    .about div{
+        flex-basis: 40%;
+    }
+    .school{
+        text-align: center;
+    }
+    .marketing{
+        text-align: center;
+    }
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact img{
+        max-width: 20%;
+    }
+    #contact{
+        flex-basis: 100%;
+    }
+    .contact div{
+        flex-basis: 40%;
+    }
+    .gallary{
+        text-align: center;
+    }
+    .intern{
+        text-align: center;
+    }
+    .pse{
+        text-align: center;
+    }
+    .schoolcontent{
+        text-align: center;
+    }
+    .schoolcontent>img{
+        max-width: 50%;
+    }
+    .pse>img{
+        max-width: 30%;
+        margin: 2rem;
+    }
+    .intern>img{
+        max-width: 40%;
+        margin: 2rem;
+    }
+    .intern div{
+        max-width: 28%;
+        margin: auto;
+    }
+
+}
+
